@@ -1,0 +1,11 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"editor.formatOnSave": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.tabWidth": 1
+}
