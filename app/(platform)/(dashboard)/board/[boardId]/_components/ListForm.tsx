@@ -37,6 +37,9 @@ const ListForm = () => {
 			disableEditing();
 			router.refresh();
 		},
+		onError: (error) => {
+			toast.error(error);
+		},
 	});
 
 	const onKeyDown = (e: KeyboardEvent) => {
